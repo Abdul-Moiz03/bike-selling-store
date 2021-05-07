@@ -26,7 +26,7 @@ integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2b
     <div class="container"> <!-- bootstrap container calss start -->
      <div class="col-md-6 offer"> <!-- col-md offers botstrap class  12 colms in which we are using 6-->
      <a herf="#" class=" btn btn-success btn-sm"> Welcome Guest</a>
-     <a herf="#"> Shopping cart total price: 100 ,total item 2</a>
+     <a herf="#"> Shopping cart total price: 100moiz ,total item 2</a>
      </div> <!--end of cln 6 -->
      <div class=" col-md-6">
      <ul class="menu">
