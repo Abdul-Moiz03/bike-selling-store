@@ -82,11 +82,11 @@ integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2b
                     </ul>
                 </div><!--padding nav End-->
                 <div>
-                    <a href="cart.php" class="btn btn-primary navbar-btn right">
+                <a href="cart.php" class="btn btn-primary navbar-btn right">
                         <i class="fa fa-shopping-cart"></i>
                         <span>4 itme in cart</span>
                     </a>
-                    <div class="navbar-collapse collapse-right">
+                    <div class="navbar-collapse collapse right">
                         <button class="btn navbar-btn btn-primary" type="button" data-toggle="collapse"
                                 data-target="#search">
                                 <span class="sr-only"> toggle search</span>
@@ -94,12 +94,89 @@ integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2b
                     
                         </button>
                     </div>
-                </div>
+                        <div class="collapse clearfix" id="search">
+                        <form action="result.php" class="navbar-form" method="get">
+                        
+                        <div class="input-group">
+                        <input type="text" name="user_query" placeholder="Search Here" class="form-control" required="">
+                        <span class="input-group-btn">
+                        <button type="submit" value="Submit " name="submit" class="btn btn-primary">
+                        
+                            <i class="fa fa-search"></i>
+                        </button>
+                        </span>
+                        </div>
 
+                        </form>
+
+                        </div>
+
+                </div>
 
 
             </div>   <!--nav bar colaspe collapse end-->
         </div>
     </div>    <!-- end of nav bar -->
+<div class="container" id="slider">
+<!-- container starts -->
+    <div class="col-md-12">
+    <!-- col-md-12 start -->
+        <div class="carousel slide" id="myCarousel" data-ride="carousel">
+        <!-- carousel slide start -->
+            <ol class="carousel-indicators">
+            <li data-target="myCarousel" data-slide-to="0" class="active"></li> 
+            <li data-target="myCarousel" data-slide-to="1" ></li> 
+            <li data-target="myCarousel" data-slide-to="2" ></li> 
+            <li data-target="myCarousel" data-slide-to="3" ></li> 
+            </ol>
+
+            <div class="carousel-inner">
+            <!-- carousel inner start -->
+            
+                <div class="item active">
+                    <img src="images/1.jpg
+                    " width=1200px   alt="some image" >
+                </div>
+
+                <div class="item ">
+                    <img src="images/2.jpg" width=1200px   alt="some image">
+                </div>
+
+                <div class="item ">
+                    <img src="images/5.jpg" width=1200px   alt="some image">
+                </div>
+
+                <div class="item ">
+                    <img src="images/4.jpg" width=1200px   alt="some image">
+                </div>
+            </div>
+                    <!-- carousel inner ends -->
+                    
+                    <a href="myCarousel" class="left carousel-control" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+
+                    <a href="myCarousel" class="right carousel-control" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+<!-- 
+                    <a href="myCarousel" class="left carousel-control" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+
+                    <a href="myCarousel" class="left carousel-control" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                    </a> -->
+        </div>
+            <!-- carousel slide ends -->
+    </div>
+    <!-- col-md-12 ends -->
+</div>
+<!-- container ends -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
