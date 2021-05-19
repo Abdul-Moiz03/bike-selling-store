@@ -177,6 +177,151 @@ integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2b
     <!-- col-md-12 ends -->
 </div>
 <!-- container ends -->
+
+
+<div id="advantage"><!-- advantage starts -->
+
+    <div class="container">
+        <div class="same-height-row">
+            <div class="col-sm-4">
+                <div class="box same-height">
+                    <div class="icon">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <h3><a href="#">Best Prices</a></h3>
+                    <br>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit accusantium maiores necessitatibus ipsum, delectus minima earum, aperiam consequuntur tempore optio temporibus ad aspernatur possimus libero asperiores? Veniam totam dolorem rem?</p>
+
+                
+                </div>
+            
+            </div>
+
+
+            <div class="col-sm-4">
+                <div class="box same-height">
+                    <div class="icon">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <h3><a href="#">100% Satisfaction Guaranteed from Us</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit accusantium maiores necessitatibus ipsum, delectus minima earum, aperiam consequuntur tempore optio temporibus ad aspernatur possimus libero asperiores? Veniam totam dolorem rem?</p>
+
+                
+                </div>
+            
+            </div>
+
+
+
+            <div class="col-sm-4">
+                <div class="box same-height">
+                    <div class="icon">
+                        <i class="fa fa-heart"></i>
+                    </div>
+                    <h3><a href="#">Love of our customers</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit accusantium maiores necessitatibus ipsum, delectus minima earum, aperiam consequuntur tempore optio temporibus ad aspernatur possimus libero asperiores? Veniam totam dolorem rem?</p>
+
+                
+                </div>
+            
+            </div>
+
+        </div>
+    
+    </div>
+
+</div><!-- advantage starts -->
+
+<!-- hot start -->
+<div id="hot">
+    <div class="box">
+        <div class="container">
+            <div class="col-md-12">
+                <h2>Latest This Week</h2>
+            </div>
+        </div>
+    </div>
+<!-- hot start -->
+
+<div  class="container" id="content">
+    <div class="row">
+        
+        <div class="col-sm-4 col-sm-6 single">
+        <!-- col-sm-4 col-sm-6 single starts -->
+            <div class="product">
+                <a href="details.php">
+                    <img src="images/images.jpg" alt="image" class=""img-responsive>
+                </a>
+                <div class="text">
+                    <h3><a href="details.php">SuperPower 150cc</a></h3>
+                    <p class="price">PKR 15000</p>
+                    <p class="buttons"><a href="details.php" class="btn btn-default">View Details</a>
+                    <a href="details.php" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                    </p>
+                </div>
+
+            </div>
+
+        </div><!-- col-sm-4 col-sm-6 single ends -->
+
+        <div class="col-sm-4 col-sm-6 single">
+        <!-- col-sm-4 col-sm-6 single starts -->
+            <div class="product">
+                <a href="details.php">
+                    <img src="images/12.jpg" alt="image" class=""img-responsive>
+                </a>
+                <div class="text">
+                    <h3><a href="details.php">SuperPower 150cc</a></h3>
+                    <p class="price">PKR 15000</p>
+                    <p class="buttons"><a href="details.php" class="btn btn-default">View Details</a>
+                    <a href="details.php" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                    </p>
+                </div>
+
+            </div>
+
+        </div><!-- col-sm-4 col-sm-6 single ends -->
+
+        <div class="col-sm-4 col-sm-6 single">
+        <!-- col-sm-4 col-sm-6 single starts -->
+            <div class="product">
+                <a href="details.php">
+                    <img src="images/download.jpg" alt="image" class=""img-responsive>
+                </a>
+                <div class="text">
+                    <h3><a href="details.php">SuperPower 150cc</a></h3>
+                    <p class="price">PKR 15000</p>
+                    <p class="buttons"><a href="details.php" class="btn btn-default">View Details</a>
+                    <a href="details.php" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                    </p>
+                </div>
+
+            </div>
+
+        </div><!-- col-sm-4 col-sm-6 single ends -->
+
+        <div class="col-sm-4 col-sm-6 single">
+        <!-- col-sm-4 col-sm-6 single starts -->
+            <div class="product">
+                <a href="details.php">
+                    <img src="images/6.jpg" alt="image" class=""img-responsive>
+                </a>
+                <div class="text">
+                    <h3><a href="details.php">SuperPower 150cc</a></h3>
+                    <p class="price">PKR 15000</p>
+                    <p class="buttons"><a href="details.php" class="btn btn-default">View Details</a>
+                    <a href="details.php" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to Cart</a>
+                    </p>
+                </div>
+
+            </div>
+
+        </div><!-- col-sm-4 col-sm-6 single ends -->
+    </div>
+
+
+</div>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
